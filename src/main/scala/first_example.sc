@@ -37,13 +37,16 @@ greetStrings(2) = "world!\n"
 
 
 
+
+
+
 for (i <- 0 to 2)
   print(greetStrings(i))
 
 // FUNCTIONS EXAMPLES
 //----------------------------------------------------
 
-// Basic Examples
+// Some Basic Examples
 def square(x: Double) = x * x
 square(2)
 square(5+2)
@@ -55,11 +58,26 @@ def abs(x:Double) = if (x>=0) x else -x
 abs(10)
 abs(-10)
 abs(10)==abs(-10)
+
+
 // First function
 // --------------------------------
+// 1.1 Recursive version
 def factorial(x: BigInt): BigInt =
   if (x == 0) 1 else x * factorial(x - 1)
-println(factorial(10))
+println(factorial(4))
+
+
+
+//1.2 Tail-recursive version
+
+def factorial2(n:Int): Int = {
+  def loop(acc: Int, n: Int): Int =
+    if (n==0) acc
+  else loop(acc * n, n - 1)
+  loop(1,n)
+}
+println(factorial2(4))
 
 
 
@@ -71,7 +89,6 @@ def max(x: Int, y: Int): Int = {
 }
 max(3, 5)
 // or
-
 def max2(x: Int, y: Int) = if (x > y) x else y
 max2(3, 5)
 
@@ -83,7 +100,8 @@ object sort {
 
   /** Nested methods can use and even update everything
     *  visible in their scope (including local variables or
-    *  arguments of enclosing methods).
+    *  arguments of enclosing methods) which allows us to
+    *  prevent namespace pollution.
     */
   def sort(a: Array[Int]) {
 
@@ -129,7 +147,6 @@ object sort {
   }
 
 }
-
 /** 3. 2 Quick sort, functional style */
 object sort1 {
   def sort(a: List[Int]): List[Int] = {
@@ -209,7 +226,16 @@ println(i)
 
 
 
+
+
+
+
+
+
+
 println(isPrime(100))
+
+
 
 
 
@@ -239,10 +265,11 @@ println(sqrt(9))
 
 def gcd(a:Int, b:Int): Int =
 if (b==0) a else gcd(b, a%b)
-
 println (gcd(10,12))
 
 println (gcd(100,120))
+
+
 
 
 
@@ -257,7 +284,6 @@ trait Philosophical {
 /** class Frog extends Philosophical {
   override def toString = "green"
 }*/
-
 class Animal
 class Frog extends Animal with Philosophical {
   override def toString = "green"
@@ -271,6 +297,8 @@ frog.philosophize()
 
 
 phil.philosophize()
+
+
 
 
 
