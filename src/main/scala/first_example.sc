@@ -35,6 +35,8 @@ greetStrings(2) = "world!\n"
 
 
 
+
+
 for (i <- 0 to 2)
   print(greetStrings(i))
 
@@ -228,6 +230,22 @@ def sqrt(x: Double) = {
 }
 println(sqrt(9))
 
+
+// Sixth Function
+//---------------------------------------------
+// Function that compute the
+// Greatest Common Divider (gcd)
+// of two numbers integers a and b
+
+def gcd(a:Int, b:Int): Int =
+if (b==0) a else gcd(b, a%b)
+
+println (gcd(10,12))
+
+println (gcd(100,120))
+
+
+
 // ----------------------------------------------------
 // Examples of traits and classes
 // --------------------------------
@@ -241,7 +259,6 @@ trait Philosophical {
 }*/
 
 class Animal
-
 class Frog extends Animal with Philosophical {
   override def toString = "green"
 }
@@ -252,7 +269,9 @@ frog.philosophize()
 
 
 
+
 phil.philosophize()
+
 
 
 
