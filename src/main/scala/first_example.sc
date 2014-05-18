@@ -40,6 +40,9 @@ greetStrings(2) = "world!\n"
 
 
 
+
+
+
 for (i <- 0 to 2)
   print(greetStrings(i))
 
@@ -47,30 +50,35 @@ for (i <- 0 to 2)
 //----------------------------------------------------
 
 // Some Basic Examples
-def square(x: Double) = x * x
+def square(x: Double): Double = x * x
 square(2)
 square(5+2)
 square(square(4))
-
-def sumOfSquares(x: Double, y: Double) = square(x) + square(y)
+def sumOfSquares(x: Double, y: Double):Double = square(x) + square(y)
 sumOfSquares(3, 2 + 2)
-def abs(x:Double) = if (x>=0) x else -x
+def abs(x:Double): Double = if (x>=0) x else -x
+
 abs(10)
 abs(-10)
 abs(10)==abs(-10)
+def sumInt(a:Int, b:Int): Int =
+  if (a > b) 0 else a + sumInt( a + 1, b)
+def cube(x:Int): Int = x * x * x
 
-
+def sumCubes(a:Int, b:Int): Int =
+  if (a > b) 0 else cube(a) + sumCubes( a + 1, b)
 // First function
 // --------------------------------
 // 1.1 Recursive version
-def factorial(x: BigInt): BigInt =
-  if (x == 0) 1 else x * factorial(x - 1)
+// ---------------------
+def factorial(n: Int): Int =
+  if (n == 0) 1 else n * factorial(n - 1)
 println(factorial(4))
 
 
 
-//1.2 Tail-recursive version
-
+// 1.2 Tail-recursive version
+// --------------------------
 def factorial2(n:Int): Int = {
   def loop(acc: Int, n: Int): Int =
     if (n==0) acc
@@ -79,6 +87,23 @@ def factorial2(n:Int): Int = {
 }
 println(factorial2(4))
 
+// 1.3 Another example involving factorial functions
+// --------------------------
+def sumFactorials(a:Int, b:Int): Int =
+  if (a > b) 0 else factorial(a) + sumFactorials( a + 1, b)
+
+println(sumFactorials(4, 4) )
+
+
+// Previous example using Higher-Order Functions
+// from FUNCTIONAL PROGRAMMING
+
+def sum(f:Int => Int, a:Int, b:Int): Int =
+  if (a < b) 0
+  else f(a) + sum(f, a+1, b)
+
+def sumFactorials2(a: Int, b: Int) = sum(factorial, a, b)
+println(sumFactorials2(4, 4) )
 
 
 // Second function
@@ -91,24 +116,19 @@ max(3, 5)
 // or
 def max2(x: Int, y: Int) = if (x > y) x else y
 max2(3, 5)
-
 // Third function: Two implementations of Quick Sort
 // --------------------------------
 // 3. 1. Quick sort, imperative style
-
 object sort {
-
   /** Nested methods can use and even update everything
     *  visible in their scope (including local variables or
     *  arguments of enclosing methods) which allows us to
     *  prevent namespace pollution.
     */
   def sort(a: Array[Int]) {
-
     def swap(i: Int, j: Int) {
       val t = a(i); a(i) = a(j); a(j) = t
     }
-
     def sort1(l: Int, r: Int) {
       val pivot = a((l + r) / 2)
       var i = l
@@ -145,7 +165,6 @@ object sort {
     sort(ar)
     println(ar)
   }
-
 }
 /** 3. 2 Quick sort, functional style */
 object sort1 {
@@ -228,14 +247,7 @@ println(i)
 
 
 
-
-
-
-
-
 println(isPrime(100))
-
-
 
 
 
@@ -262,14 +274,11 @@ println(sqrt(9))
 // Function that compute the
 // Greatest Common Divider (gcd)
 // of two numbers integers a and b
-
 def gcd(a:Int, b:Int): Int =
 if (b==0) a else gcd(b, a%b)
 println (gcd(10,12))
 
 println (gcd(100,120))
-
-
 
 
 
