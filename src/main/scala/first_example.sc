@@ -33,6 +33,7 @@ greetStrings(2) = "world!\n"
 
 
 
+
 for (i <- 0 to 2)
   print(greetStrings(i))
 
@@ -45,12 +46,12 @@ square(2)
 square(5+2)
 square(square(4))
 
+def sumOfSquares(x: Double, y: Double) = square(x) + square(y)
+sumOfSquares(3, 2 + 2)
 def abs(x:Double) = if (x>=0) x else -x
-
 abs(10)
 abs(-10)
 abs(10)==abs(-10)
-
 // First function
 // --------------------------------
 def factorial(x: BigInt): BigInt =
@@ -66,7 +67,6 @@ def max(x: Int, y: Int): Int = {
   else y
 }
 max(3, 5)
-
 // or
 
 def max2(x: Int, y: Int) = if (x > y) x else y
@@ -205,8 +205,27 @@ println(i)
 
 
 
+
 println(isPrime(100))
 
+
+
+// Fifth Function
+//---------------------------------------------
+// Square Roots by Newton's method of successive approximations
+// nesting functions inside main block function
+
+def sqrt(x: Double) = {
+  def sqrtIter(guess: Double, x: Double): Double =
+    if (isGoodEnough(guess, x)) guess
+    else sqrtIter(improve(guess, x), x)
+  def improve(guess: Double, x: Double) =
+    (guess + x / guess) / 2
+  def isGoodEnough(guess: Double, x: Double) =
+    abs(square(guess) - x) < 0.001
+  sqrtIter(1.0, x)
+}
+println(sqrt(9))
 
 // ----------------------------------------------------
 // Examples of traits and classes
@@ -231,7 +250,9 @@ frog.philosophize()
 
 
 
+
 phil.philosophize()
+
 
 
 
