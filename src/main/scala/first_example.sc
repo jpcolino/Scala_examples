@@ -100,8 +100,9 @@ println(sumFactorials(3, 4) )
 
 
 
-// Previous example using Higher-Order Functions
-// from FUNCTIONAL PROGRAMMING
+// 1.4. Previous example using
+// Higher-Order Functions from
+// FUNCTIONAL PROGRAMMING
 def sum(f:Int => Int, a:Int, b:Int): Int =
   if (a > b) 0
   else f(a) + sum(f, a+1, b)
