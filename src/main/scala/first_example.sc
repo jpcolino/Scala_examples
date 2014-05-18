@@ -32,16 +32,31 @@ greetStrings(1) = ", "
 greetStrings(2) = "world!\n"
 
 
+
 for (i <- 0 to 2)
   print(greetStrings(i))
 
-
+// FUNCTIONS EXAMPLES
 //----------------------------------------------------
+
+// Basic Examples
+def square(x: Double) = x * x
+square(2)
+square(5+2)
+square(square(4))
+
+def abs(x:Double) = if (x>=0) x else -x
+
+abs(10)
+abs(-10)
+abs(10)==abs(-10)
+
 // First function
 // --------------------------------
 def factorial(x: BigInt): BigInt =
   if (x == 0) 1 else x * factorial(x - 1)
 println(factorial(10))
+
 
 
 // Second function
@@ -178,7 +193,20 @@ println(i)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 println(isPrime(100))
+
 
 // ----------------------------------------------------
 // Examples of traits and classes
@@ -188,7 +216,6 @@ trait Philosophical {
     println("I consume memory, therefore I am!")
   }
 }
-
 /** class Frog extends Philosophical {
   override def toString = "green"
 }*/
@@ -203,7 +230,9 @@ val phil: Philosophical = frog
 frog.philosophize()
 
 
+
 phil.philosophize()
+
 
 
 
