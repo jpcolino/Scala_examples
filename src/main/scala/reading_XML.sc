@@ -5,6 +5,10 @@ val foo = <foo>
 </foo>
 
 foo.text
+
+
+
+
 foo \ "bar"
 (foo \ "bar").map(_.text).mkString(" ")
 (foo \ "bar").map(_ \ "@type")
