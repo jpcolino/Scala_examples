@@ -43,6 +43,10 @@ greetStrings(2) = "world!\n"
 
 
 
+
+
+
+
 for (i <- 0 to 2)
   print(greetStrings(i))
 
@@ -85,25 +89,24 @@ def factorial2(n:Int): Int = {
   else loop(acc * n, n - 1)
   loop(1,n)
 }
-println(factorial2(4))
+println(factorial2(3))
 
 // 1.3 Another example involving factorial functions
 // --------------------------
 def sumFactorials(a:Int, b:Int): Int =
-  if (a > b) 0 else factorial(a) + sumFactorials( a + 1, b)
+  if (a > b) 0
+  else factorial(a) + sumFactorials( a + 1, b)
+println(sumFactorials(3, 4) )
 
-println(sumFactorials(4, 4) )
 
 
 // Previous example using Higher-Order Functions
 // from FUNCTIONAL PROGRAMMING
-
 def sum(f:Int => Int, a:Int, b:Int): Int =
-  if (a < b) 0
+  if (a > b) 0
   else f(a) + sum(f, a+1, b)
-
 def sumFactorials2(a: Int, b: Int) = sum(factorial, a, b)
-println(sumFactorials2(4, 4) )
+println(sumFactorials2(3, 4) )
 
 
 // Second function
@@ -247,7 +250,34 @@ println(i)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 println(isPrime(100))
+
+
 
 
 
@@ -255,7 +285,6 @@ println(isPrime(100))
 //---------------------------------------------
 // Square Roots by Newton's method of successive approximations
 // nesting functions inside main block function
-
 def sqrt(x: Double) = {
   def sqrtIter(guess: Double, x: Double): Double =
     if (isGoodEnough(guess, x)) guess
@@ -269,6 +298,8 @@ def sqrt(x: Double) = {
 println(sqrt(9))
 
 
+
+
 // Sixth Function
 //---------------------------------------------
 // Function that compute the
@@ -278,7 +309,10 @@ def gcd(a:Int, b:Int): Int =
 if (b==0) a else gcd(b, a%b)
 println (gcd(10,12))
 
+
 println (gcd(100,120))
+
+
 
 
 
@@ -305,7 +339,10 @@ frog.philosophize()
 
 
 
+
 phil.philosophize()
+
+
 
 
 
