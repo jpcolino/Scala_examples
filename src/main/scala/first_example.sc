@@ -47,6 +47,12 @@ greetStrings(2) = "world!\n"
 
 
 
+
+
+
+
+
+
 for (i <- 0 to 2)
   print(greetStrings(i))
 
@@ -108,6 +114,7 @@ def sum(f:Int => Int, a:Int, b:Int): Int =
   else f(a) + sum(f, a+1, b)
 def sumFactorials2(a: Int, b: Int) = sum(factorial, a, b)
 println(sumFactorials2(3, 4) )
+
 
 
 // Second function
@@ -282,6 +289,7 @@ println(isPrime(100))
 
 
 
+
 // Fifth Function
 //---------------------------------------------
 // Square Roots by Newton's method of successive approximations
@@ -301,6 +309,7 @@ println(sqrt(9))
 
 
 
+
 // Sixth Function
 //---------------------------------------------
 // Function that compute the
@@ -312,6 +321,7 @@ println (gcd(10,12))
 
 
 println (gcd(100,120))
+
 
 
 
@@ -337,23 +347,103 @@ val phil: Philosophical = frog
 frog.philosophize()
 
 
-
-
-
-
 phil.philosophize()
 
 
 
 
-
-
-
-
-
-
-
-
-
-// Some Examples of Data Types
+// Some Examples of Functions as Objects
 // -----------------------------------------
+
+/**
+
+Remember that function values are treated as objects in Scala.
+
+The functions type A => B is just an abbreviation for the class
+scala.Function1[A,B] which is roughly defined as
+
+package scala
+trait Function1[A,B]{
+  def apply (x:A):B
+}
+
+Functions are objects with apply methods
+*/
+
+
+val f = (x:Int)=>x*x // that is an eta-expansion
+println(f(7))
+
+/** is equivalent to
+{class AnonFun extends Functions1[Int, Int]{
+  def apply(x:Int) = x*x
+  }
+  new AnonFun
+}
+
+ or shorter using anonymous class syntax:
+
+*/
+
+val f2 = new Function1[Int,Int]{
+  def apply(x:Int)=x*x
+}
+
+println(f2.apply(7))
+
+// List comprehension in scala
+// -----------------------------------------
+object ComprehensionTest1 {
+  for (i <- Iterator.range(0, 20);
+       j <- Iterator.range(i + 1, 20) if i + j == 32)
+    println("(" + i + ", " + j + ")")
+}
+
+println(ComprehensionTest1)
+
+
+
+
+object ComprehensionTest2 {
+  for (i <- Iterator.range(0, 50);
+       j <- Iterator.range(50, 100))
+    println("(" + i + ", " + j + ")")
+}
+
+println(ComprehensionTest2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
