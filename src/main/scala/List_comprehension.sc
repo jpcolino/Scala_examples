@@ -18,7 +18,7 @@ mylist.foreach(println)
 
 
 
-mylist indexOf(5,2)
+mylist indexOf(4,3)
 val mylist2 = List ("a","b","c")
 val mylist3 = mylist ++ mylist2// concatenation of lists
 val myList4: List[Int] = 1 until 10 toList
@@ -35,11 +35,21 @@ val myList11 = x.filter(a => a % 2 == 1)
 val myList12 = x.map(a => a+1)
 val myList13 = x.map(a => a*a)
 
+
 // Converting a List in an Array
 // -----------------------------------------
 val myArray3: Array[String] = (mylist3 map (_.toString)).toArray
 println(myArray3)
 
+// List of random numbers
+// -----------------------------------------
+import scala.util.Random
+val mylist14 = List.fill(10)(Random.nextInt(10))
+val mylist15:List[Double] = List.fill(10)(Random.nextGaussian())filter(x=>x>0)
+val mylist16:List[Double] = List.fill(10)(Random.nextDouble())
+
+private val volatility = 0.5
+val mylist17:List[Double] = List.fill(10)(Random.nextGaussian())
 
 // List comprehension in scala
 // -----------------------------------------
@@ -61,6 +71,5 @@ object ComprehensionTest2 extends App {
 }
 val factors  =  ( n : Int )  =>  for(  x <- ( 1 to n );  if n % x == 0 )  yield x
 println(factors(100))
-
 
 

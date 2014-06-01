@@ -2,9 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62bed8b6-af13-4f6c-99ba-538e0471aadc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Simplex.sc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/List_comprehension.sc" afterPath="$PROJECT_DIR$/src/main/scala/List_comprehension.sc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.css" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.xsl" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.xsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/scala_first_examples/scala_first_examples$sbt_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/scala_first_examples/scala_first_examples$sbt_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/scala_first_examples/scala_first_examples$sources_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/scala_first_examples/scala_first_examples$sources_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/scala_first_examples/scala_first_examples$sources_javadoc_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/scala_first_examples/scala_first_examples$sources_javadoc_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/scala_first_examples/scala_first_examples$sbt_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/scala_first_examples/scala_first_examples$sbt_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/scala_first_examples/scala_first_examples$sources_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/scala_first_examples/scala_first_examples$sources_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/scala_first_examples/scala_first_examples$sources_javadoc_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/scala_first_examples/scala_first_examples$sources_javadoc_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sbt_2.10-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sbt_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_2.10-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_javadoc_2.10-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Scala_first_examples.iws" />
@@ -16,6 +40,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -38,11 +67,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List_comprehension.sc" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="List_comprehension.sc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/List_comprehension.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30985916" vertical-offset="0" max-vertical-offset="1080">
-              <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.14962122" vertical-offset="112" max-vertical-offset="1155">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Simplex.sc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Simplex.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15050167" vertical-offset="0" max-vertical-offset="1196">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,8 +90,8 @@
       <file leaf-file-name="LSM.sc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/LSM.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="9330">
-              <caret line="153" column="43" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
+            <state vertical-scroll-proportion="2.070949" vertical-offset="1620" max-vertical-offset="9330">
+              <caret line="252" column="5" selection-start-line="252" selection-start-column="5" selection-end-line="252" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -104,14 +143,15 @@
         <option value="$PROJECT_DIR$/src/main/scala/LSM.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/first_example.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/List_comprehension.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/Simplex.sc" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1537" />
-    <option name="y" value="24" />
-    <option name="width" value="1537" />
-    <option name="height" value="1407" />
+    <option name="x" value="374" />
+    <option name="y" value="22" />
+    <option name="width" value="2182" />
+    <option name="height" value="1352" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -139,6 +179,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -215,10 +256,61 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simplex.sc" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala_first_examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala_first_examples" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LSM.sc" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala_first_examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala_first_examples" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -556,11 +648,15 @@
       <created>1401399051168</created>
       <updated>1401399051168</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="more examples... still quite basic">
+      <created>1401402232986</created>
+      <updated>1401402232986</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1537" y="24" width="1537" height="1407" extended-state="0" />
+    <frame x="374" y="22" width="2182" height="1352" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -573,15 +669,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15620328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15599096" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24976614" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15875082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1642178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13096352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16352676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -618,6 +714,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/callprice.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1290">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/functional_style.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="420">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/first_example.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6825">
@@ -935,26 +1047,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/LSM.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="9330">
-          <caret line="153" column="43" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/callprice.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1290">
           <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/functional_style.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="420">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -967,10 +1063,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/functional_style.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="420">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/LSM.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.070949" vertical-offset="1620" max-vertical-offset="9330">
+          <caret line="252" column="5" selection-start-line="252" selection-start-column="5" selection-end-line="252" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/List_comprehension.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30985916" vertical-offset="0" max-vertical-offset="1080">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.14962122" vertical-offset="112" max-vertical-offset="1155">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Simplex.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15050167" vertical-offset="0" max-vertical-offset="1196">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
