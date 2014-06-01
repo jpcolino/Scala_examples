@@ -11,6 +11,11 @@ mylist.tail
 mylist take 3
 mylist drop 3
 mylist(0)
+for (i <- 1 to (mylist.length-1)) println(mylist(i))
+
+
+
+
 mylist.reverse
 mylist.foreach(println)
 
@@ -18,7 +23,11 @@ mylist.foreach(println)
 
 
 
+mylist.sum
+mylist.take(mylist.length).sum
+mylist.product
 mylist indexOf(4,3)
+val myList1 = (for (i <- 1 to mylist.length) yield mylist.take(i).sum).toList
 val mylist2 = List ("a","b","c")
 val mylist3 = mylist ++ mylist2// concatenation of lists
 val myList4: List[Int] = 1 until 10 toList
@@ -34,8 +43,6 @@ val myList10 = x.filter(a => a % 2 == 0)
 val myList11 = x.filter(a => a % 2 == 1)
 val myList12 = x.map(a => a+1)
 val myList13 = x.map(a => a*a)
-
-
 // Converting a List in an Array
 // -----------------------------------------
 val myArray3: Array[String] = (mylist3 map (_.toString)).toArray
@@ -45,12 +52,10 @@ println(myArray3)
 // -----------------------------------------
 import scala.util.Random
 val mylist14 = List.fill(10)(Random.nextInt(10))
-val mylist15:List[Double] = List.fill(10)(Random.nextGaussian())filter(x=>x>0)
-val mylist16:List[Double] = List.fill(10)(Random.nextDouble())
-
-private val volatility = 0.5
-val mylist17:List[Double] = List.fill(10)(Random.nextGaussian())
-
+val mylist15:List[Double] = List.fill(10)(Random.nextGaussian())
+val mylist16:List[Double] = List.fill(10)(Random.nextDouble())filter(x=>x>0)
+//A list that is the sum of each element before (a kind of sumcum in the list)
+val mylist17:List[Double] = (for (i <- 1 to mylist15.length) yield mylist15.take(i).sum).toList
 // List comprehension in scala
 // -----------------------------------------
 object ComprehensionTest1 {
