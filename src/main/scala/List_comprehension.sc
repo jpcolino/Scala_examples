@@ -48,7 +48,7 @@ val myList13 = x.map(a => a*a)
 val myArray3: Array[String] = (mylist3 map (_.toString)).toArray
 println(myArray3)
 
-// List of random numbers
+// List of Random Numbers
 // -----------------------------------------
 import scala.util.Random
 val mylist14 = List.fill(10)(Random.nextInt(10))
@@ -56,7 +56,17 @@ val mylist15:List[Double] = List.fill(10)(Random.nextGaussian())
 val mylist16:List[Double] = List.fill(10)(Random.nextDouble())filter(x=>x>0)
 //A list that is the sum of each element before (a kind of sumcum in the list)
 val mylist17:List[Double] = (for (i <- 1 to mylist15.length) yield mylist15.take(i).sum).toList
-// List comprehension in scala
+// -----------------------------------------
+// Random Numbers Full-version for a list:
+// -----------------------------------------
+val mylist18:List[Double] = (for (i <- 1 to 10) yield List.fill(10)(Random.nextGaussian()).take(i).sum).toList
+val mylist19:List[Double] = (for (i <- 1 to 10) yield List.fill(10)(Random.nextGaussian()).take(i).sum).toList
+
+// identify position where une list value is bigger than the other:
+
+val myList20 = (for {i <- 0 to mylist19.length-1 if mylist19(i)<mylist18(i) } yield i).toList
+
+// List comprehension in Scala
 // -----------------------------------------
 object ComprehensionTest1 {
   for (i <- Iterator.range(0, 20);
