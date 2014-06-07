@@ -84,14 +84,13 @@ println(List.fill(3)("Hello") zip List.fill(3)("World"))
 abcde mkString ("[", ",", "]")
 abcde mkString ""
 abcde.mkString
-abcde mkString("\nSequence of Char\n" , "\n" , " ")
+(abcde mkString("\nSequence of Char\n" , "\n" , " ")).stripMargin
 
 
 
 
 
 
-  //.stripMargin
 // -----------------------------------------
 // List of Random Numbers
 // -----------------------------------------
