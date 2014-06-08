@@ -79,7 +79,7 @@ abcde.toString()
 println(List.fill(3)("Hello") zip List.fill(3)("World"))
 
 // -----------------------------------------
-// mkstring: very useful!!
+// mkstring: very useful to create txt !!
 // -----------------------------------------
 abcde mkString ("[", ",", "]")
 abcde mkString ""
@@ -100,6 +100,48 @@ val mylist15:List[Double] = List.fill(10)(Random.nextGaussian())
 val mylist16:List[Double] = List.fill(10)(Random.nextDouble())filter(x=>x>0)
 //A list that is the sum of each element before (a kind of cumsum in the list)
 val mylist17:List[Double] = (for (i <- 1 to mylist15.length) yield mylist15.take(i).sum).toList
+val myList17a = List.fill(10)(Random.nextInt(10)) zip List.fill(10)(Random.nextInt(5))
+( myList17a mkString("\nSequence of Pair Int\n" , "\n" , " ")).stripMargin
+
+
+
+
+
+
+
+
+
+
+
+val a1 = List.fill(10)(Random.nextInt(10))
+val b1 = List.fill(10)(Random.nextInt(5))
+val xx1:String ="col1 col2" + "\n"+(0 to a1.length-1).
+  map(t => a1(t).toString +" "+ b1(t).toString).mkString("\n")
+
+
+
+
+
+
+
+
+
+println(xx1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // -----------------------------------------
 // Random Numbers Full-version for a list:
 // -----------------------------------------
@@ -116,6 +158,7 @@ object ComprehensionTest1 {
     println("(" + i + ", " + j + ")")
 }
 println(ComprehensionTest1)
+
 
 
 

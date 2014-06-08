@@ -613,9 +613,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.0!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.0!apply-macro.jar
-[debug] :: resolution report :: resolve 351ms :: artifacts dl 12ms
+[debug] :: resolution report :: resolve 368ms :: artifacts dl 13ms
 [debug] 	report for scala_first_examples#scala_first_examples$sbt_2.10;1.0 default produced in /Users/JPC/IdeaProjects/Scala_first_examples/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sbt_2.10-default.xml
-[debug] 	resolve done (351ms resolve - 12ms download)
+[debug] 	resolve done (368ms resolve - 13ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: scala_first_examples#scala_first_examples$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -956,6 +956,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.0!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.0!precompiled-2_9_3.jar(src)
 [debug] 	[NOT REQUIRED] org.jetbrains#sbt-structure;2.3.2!sbt-structure.jar(src)
-[debug] :: resolution report :: resolve 94ms :: artifacts dl 22ms
+[debug] :: resolution report :: resolve 87ms :: artifacts dl 16ms
 [debug] 	report for scala_first_examples#scala_first_examples$sources_2.10;1.0 default produced in /Users/JPC/IdeaProjects/Scala_first_examples/target/resolution-cache/reports/scala_first_examples-scala_first_examples$sources_2.10-default.xml
-[debug] 	resolve done (94ms resolve - 22ms download)
+[debug] 	resolve done (87ms resolve - 16ms download)
