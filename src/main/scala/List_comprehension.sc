@@ -1,5 +1,4 @@
-
-
+// -----------------------------------------
 // Basics about lists
 // -----------------------------------------
 val mylist = List(1,2,3,4,5)
@@ -52,6 +51,24 @@ val myList10 = x.filter(a => a % 2 == 0)
 val myList11 = x.filter(a => a % 2 == 1)
 val myList12 = x.map(a => a+1)
 val myList13 = x.map(a => a*a)
+// -----------------------------------------
+// Reduccion of List
+// -----------------------------------------
+def sum1(xs: List[Int]): Int = xs match{
+  case Nil => 0
+  case y :: ys => y + sum1(ys)
+}
+
+def sum2 (xs: List[Int]) = (0::xs) reduceLeft ((x,y)=>x+y)
+def sum3 (xs: List[Int]) = (0::xs) reduceLeft (_ + _)
+def sum4 (xs: List[Int]) = (xs foldLeft 0) (_ + _)
+// sum1(x)==sum2(x)==sum3(x)==sum4(x)
+println(sum1(x),sum2(x),sum3(x),sum4(x))
+
+def concat1[T](xs:List[T], ys:List[T]) : List[T] =
+(xs foldRight ys) (_ :: _)
+
+concat1(List.range(1,6), List.range(6,11))
 // -----------------------------------------
 // Converting a List in an Array
 // -----------------------------------------
@@ -126,17 +143,6 @@ val xx1:String ="col1 col2" + "\n"+(0 to a1.length-1).
 
 
 
-println(xx1)
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -158,6 +164,9 @@ object ComprehensionTest1 {
     println("(" + i + ", " + j + ")")
 }
 println(ComprehensionTest1)
+
+
+
 
 
 
