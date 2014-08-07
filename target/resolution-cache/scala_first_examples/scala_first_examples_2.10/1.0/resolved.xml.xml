@@ -4,7 +4,7 @@
 		module="scala_first_examples_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20140517105225"
+		publication="20140807161523"
 	>
 		<description>
 		Scala_first_examples
@@ -32,7 +32,7 @@
 		<artifact name="scala_first_examples_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.2" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.10.2" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.3" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.3" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
