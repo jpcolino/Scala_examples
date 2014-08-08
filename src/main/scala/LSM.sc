@@ -27,7 +27,7 @@ val rows = m
   /**
    * @constructor Create a new Matrix from inArray.
    *
-   * @param m The number of rows.
+   * @param The number of rows.
    */
   def this(inArray: Array[Array[Double]]) = {
     this(inArray.length, inArray(0).length)

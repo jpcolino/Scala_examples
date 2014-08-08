@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62bed8b6-af13-4f6c-99ba-538e0471aadc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/LSM.sc" afterPath="$PROJECT_DIR$/src/main/scala/LSM.sc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.css" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.xsl" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.xsl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -32,11 +33,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="List_comprehension.sc" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="List_comprehension.sc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/List_comprehension.sc">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="3.1123245" vertical-offset="45" max-vertical-offset="2850">
               <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LSM.sc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/LSM.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8595944" vertical-offset="8689" max-vertical-offset="9330">
+              <caret line="616" column="0" selection-start-line="616" selection-start-column="0" selection-end-line="616" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pi_value_MC.sc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Pi_value_MC.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.60842437" vertical-offset="0" max-vertical-offset="641">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maps.sc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/maps.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.8333333" vertical-offset="0" max-vertical-offset="390">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="montecarlo.sc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/montecarlo.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.0833335" vertical-offset="0" max-vertical-offset="345">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -47,36 +88,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5958904" vertical-offset="0" max-vertical-offset="730">
               <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Simplex.sc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Simplex.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.138889" vertical-offset="4369" max-vertical-offset="5025">
-              <caret line="318" column="22" selection-start-line="318" selection-start-column="22" selection-end-line="318" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlackScholes_java.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/BlackScholes_java.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1440">
-              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reading_XML.sc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/reading_XML.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="330">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,16 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pi_value_MC.sc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Pi_value_MC.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="480">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -155,11 +156,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/montecarlo.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/callprice.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/BlackScholes_java.sc" />
-        <option value="$PROJECT_DIR$/src/main/scala/LSM.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/first_example.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/Simplex.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/List_comprehension.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/exercise1.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/LSM.sc" />
       </list>
     </option>
   </component>
@@ -279,7 +280,85 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Pi_value_MC.sc" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala_first_examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala_first_examples" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Parallel_MonteCarlo.sc" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala_first_examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala_first_examples" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maps.sc" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala_first_examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala_first_examples" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LSM.sc" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -697,7 +776,11 @@
       <created>1407520132220</created>
       <updated>1407520132220</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="more examples... still quite basic">
+      <created>1407520208654</created>
+      <updated>1407520208654</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1045,39 +1128,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/maps.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="390">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/addressbook.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1020">
           <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/montecarlo.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/LSM.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.6663435" vertical-offset="0" max-vertical-offset="9330">
-          <caret line="252" column="5" selection-start-line="252" selection-start-column="5" selection-end-line="252" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Pi_value_MC.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="480">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1101,14 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="330">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Parallel_MonteCarlo.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1149,6 +1195,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.1123245" vertical-offset="45" max-vertical-offset="2850">
           <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/LSM.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8595944" vertical-offset="8689" max-vertical-offset="9330">
+          <caret line="616" column="0" selection-start-line="616" selection-start-column="0" selection-end-line="616" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/maps.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8333333" vertical-offset="0" max-vertical-offset="390">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/montecarlo.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.0833335" vertical-offset="0" max-vertical-offset="345">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Parallel_MonteCarlo.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Pi_value_MC.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60842437" vertical-offset="0" max-vertical-offset="641">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding />
         </state>
       </provider>
