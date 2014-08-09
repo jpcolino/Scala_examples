@@ -82,7 +82,8 @@ val rows = m
   }
 
   /**
-   * The method addRowACtoB transforms the matrix by adding a row multiplied by a scalar to another row.
+   * The method addRowACtoB transforms the matrix
+   * by adding a row multiplied by a scalar to another row.
    * @param a The row that will be added to the target. (unmodified by the method)
    * @param c The scalar.
    * @param b The target row that will be operated on.
@@ -198,7 +199,8 @@ object Matrix {
 }
 
 /**
- * LsmParams is container for the least squares Monte Carlo algorithm parameters.
+ * LsmParams is container for the
+ * least squares Monte Carlo algorithm parameters.
  *
  * @param numPaths The number of simulation paths.
  * @param expiry The number of years until expiry.
@@ -289,7 +291,9 @@ object lsm {
    * @param fnX The results of applying the basis function to current stock prices.
    * @param y The discounted cash flows received from continuing.
    *
-   * @note The current algorithm (calculating the inverse matrix using gaussian elimination) might not be the most suitable one for this task.
+   * @note The current algorithm (calculating the inverse
+   *       matrix using gaussian elimination) might not be
+   *       the most suitable one for this task.
    */
   private val regress = (fnX: Matrix, y: Matrix) => {
     val transposeFnX = transpose(fnX)
@@ -299,7 +303,8 @@ object lsm {
   }
 
   /**
-   * Calculate the optimum decision (exercise or continue to hold) for the current step and update the cash flow matrix to reflect this.
+   * Calculate the optimum decision (exercise or continue to hold)
+   * for the current step and update the cash flow matrix to reflect this.
    *
    * @param step The current step (instant in time)
    * @param fn The basis function.
@@ -309,7 +314,9 @@ object lsm {
    *
    * @note The cash flow matrix is modified by this function.
    *
-   * @note The current algorithm (calculating the inverse matrix using gaussian elimination) might not be the most suitable one for this task.
+   * @note The current algorithm (calculating the inverse matrix
+   *       using gaussian elimination) might not be the most suitable
+   *       one for this task.
    */
   val calcCFAtStep = (
                        step: Int,
@@ -431,7 +438,8 @@ object lsm {
 
 
   /**
-   * Recurse through the cash flow matrix calculating the cash flows at each time step.
+   * Recurse through the cash flow matrix calculating
+   * the cash flows at each time step.
    *
    * @param step The current time step.
    * @param params The lsm parameters.
@@ -457,7 +465,8 @@ object lsm {
     }
 
   /**
-   * Calculate the value of the option specified by the parameters using the least squares method.
+   * Calculate the value of the option specified
+   * by the parameters using the least squares method.
    *
    * @param params The lsm parameters.
    */

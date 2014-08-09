@@ -8,23 +8,16 @@
 // first
 println("Hello world")
 
-
 //second
 val hello = "hello world"
 println (hello*10)
-
-
 //third
 val msg = "Hello, world!"
 val msg2: java.lang.String = "Hello again, world!"
 val msg3: String = "Hello yet again, world!"
 println(msg)
-
 println(msg2)
-
 println(msg3)
-
-
 //fourth
 val greetStrings = new Array[String](3)
 greetStrings(0) = "Hello"
@@ -49,16 +42,11 @@ greetStrings(2) = "world!\n"
 
 
 
-
-
-
-
 for (i <- 0 to 2)
   print(greetStrings(i))
 
 // FUNCTIONS EXAMPLES
 //----------------------------------------------------
-
 // Some Basic Examples
 def square(x: Double): Double = x * x
 square(2)
@@ -67,14 +55,12 @@ square(square(4))
 def sumOfSquares(x: Double, y: Double):Double = square(x) + square(y)
 sumOfSquares(3, 2 + 2)
 def abs(x:Double): Double = if (x>=0) x else -x
-
 abs(10)
 abs(-10)
 abs(10)==abs(-10)
 def sumInt(a:Int, b:Int): Int =
   if (a > b) 0 else a + sumInt( a + 1, b)
 def cube(x:Int): Int = x * x * x
-
 def sumCubes(a:Int, b:Int): Int =
   if (a > b) 0 else cube(a) + sumCubes( a + 1, b)
 // First function
@@ -84,7 +70,6 @@ def sumCubes(a:Int, b:Int): Int =
 def factorial(n: Int): Int =
   if (n == 0) 1 else n * factorial(n - 1)
 println(factorial(4))
-
 
 
 // 1.2 Tail-recursive version
@@ -255,34 +240,6 @@ println(i)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 println(isPrime(100))
 
 
@@ -319,7 +276,6 @@ def gcd(a:Int, b:Int): Int =
 if (b==0) a else gcd(b, a%b)
 println (gcd(10,12))
 
-
 println (gcd(100,120))
 
 
@@ -351,14 +307,11 @@ phil.philosophize()
 
 
 
-
 // Some Examples of Functions as Objects
 // -----------------------------------------
-
 /**
 
 Remember that function values are treated as objects in Scala.
-
 The functions type A => B is just an abbreviation for the class
 scala.Function1[A,B] which is roughly defined as
 
@@ -380,9 +333,7 @@ println(f(7))
   }
   new AnonFun
 }
-
  or shorter using anonymous class syntax:
-
 */
 
 val f2 = new Function1[Int,Int]{
@@ -411,17 +362,6 @@ object ComprehensionTest2 {
 }
 
 println(ComprehensionTest2)
-
-
-
-
-
-
-
-
-
-
-
 
 
 
