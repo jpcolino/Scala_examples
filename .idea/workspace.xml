@@ -86,8 +86,8 @@
       <file leaf-file-name="QuickSort.sc" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/QuickSort.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05597015" vertical-offset="0" max-vertical-offset="1890">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.72761196" vertical-offset="0" max-vertical-offset="1890">
+              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -712,7 +712,11 @@
       <created>1407662528153</created>
       <updated>1407662528153</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="more examples...">
+      <created>1407663946663</created>
+      <updated>1407663946663</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1162,8 +1166,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/QuickSort.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05597015" vertical-offset="0" max-vertical-offset="1890">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.72761196" vertical-offset="0" max-vertical-offset="1890">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
           <folding />
         </state>
       </provider>
