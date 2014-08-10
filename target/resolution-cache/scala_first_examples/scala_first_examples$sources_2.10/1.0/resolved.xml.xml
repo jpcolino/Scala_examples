@@ -4,7 +4,7 @@
 		module="scala_first_examples$sources_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20140807161523"
+		publication="20140810111741"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
@@ -131,9 +131,6 @@
 		</dependency>
 		<dependency org="org.scala-sbt" name="command" rev="0.13.2" transitive="false" conf="default->default(compile)">
 			<artifact name="command" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="org.scala-sbt" name="compiler-interface" rev="0.13.2" transitive="false" conf="default->default(compile)">
-			<artifact name="compiler-interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.scala-sbt" name="precompiled-2_8_2" rev="0.13.2" transitive="false" conf="default->default(compile)">
 			<artifact name="precompiled-2_8_2" type="src" ext="jar" conf="sources" e:classifier="sources"/>
