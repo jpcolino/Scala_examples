@@ -19,7 +19,8 @@
 * This is called the partition operation.
 *
 * 3. Recursively apply the above steps to the sub-array of elements
-* with smaller values and separately to the sub-array of elements with greater values.
+* with smaller values and separately to the sub-array
+* of elements with greater values.
 *
 * */
 import scala.collection.mutable.ArraySeq
